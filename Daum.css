@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{
+    background-color: #ececee;
+}
+body{
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+.logo{
+    width: 650px;
+    height: 80px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.logo > img{
+    width: 105px;
+    height: 42px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-left: 300px;
+}   
+.login-boxes {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.login-boxes button{
+    width: 294px;
+    height: 50px;
+    border: 0;
+    background-color: #4d87ef;
+    color: white;
+    font-size: 17px;
+}
+hr{
+    background-color: gray;   
+    height: 0.1px;
+}
+.login-boxes .id > input , .password > input{
+    width: 280px;
+    height: 45px;
+    border: 1px solid #d6d6d6;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.login-boxes .id > input{
+    margin-bottom: 5px;
+}
+.login-boxes .password > input{
+    margin-bottom: 20px;
+}
+.stay-login{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.find-infor p{ 
+    font-size: 12px;
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+section {
+    border-bottom: 1px solid #e0e0e0;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
