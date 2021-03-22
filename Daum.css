@@ -73,3 +73,7 @@ footer p{
     font-size: 12px;
     margin-top: 20px;
 }
+.login-boxes .id > input:focus , .password > input:focus{
+    outline: 1px solid #5a94fd;
+    background-color: #fafcff;
+}
