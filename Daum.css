@@ -12,19 +12,24 @@ body{
     margin: 0 auto;
     background-color: white;
 }
-.logo{
-    width: 650px;
-    height: 80px;
-    padding-bottom: 10px;
+h1 {
+    width: 100%;
+    height: 90px;
     border-bottom: 1px solid #e0e0e0;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
-.logo > img{
+h1 > img{
     width: 105px;
     height: 42px;
-    display: inline-block;
+    /* display: inline;
     margin-bottom: 10px;
     margin-top: 25px;
-    margin-left: 300px;
+    margin-left: 300px; */
 }   
 .login-boxes {
     margin-left: 40px;
