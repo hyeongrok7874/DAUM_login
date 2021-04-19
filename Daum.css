@@ -68,12 +68,13 @@ hr{
     margin-top: 15px;
     font-size: 12px;
 }
-.find-infor{
-    display: inline-block;
+.login-boxes .find-infor{
+    margin: 0 auto;
+    display: block;
 }
-.find-infor p{ 
+.login-boxes .find-infor p{ 
     font-size: 12px;
-    margin-left: 130px;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 70px;
 }
