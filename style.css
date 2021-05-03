@@ -48,6 +48,9 @@ h1 > img{
     color: white;
     font-size: 17px;
 }
+.login-boxes button:hover, .stay-login input:hover{
+    cursor: pointer;
+}
 hr{
     background-color: gray;   
     height: 0.1px;
